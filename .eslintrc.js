@@ -19,6 +19,8 @@ module.exports = {
   ],
   rules: {
     indent: ['error', 2],
+    'react/prop-types': [0],
     'react/jsx-filename-extension': [0, { extensions: ['.js', '.jsx'] }],
+    'react/jsx-no-bind': [0],
   },
 };
