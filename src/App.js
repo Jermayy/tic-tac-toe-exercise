@@ -98,7 +98,6 @@ function TicTacToe() {
   }
 
   const winner = checkWinner(state.positions);
-  console.log(checkWinner(state.positions));
 
   return (
     <div>
